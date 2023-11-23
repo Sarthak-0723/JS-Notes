@@ -1,3 +1,5 @@
+// ©️ 2023 Sarthak Raut
+
 // This is single line comment
 
 /*
@@ -167,7 +169,7 @@ console.log('End of ladder');
 
 // 6. Loops in JavaScript
 
-var arr = [1, 2, 3, 4, 5, 6, 7]
+var arr = [1, 2, 3, 4, 5, 6, 7];
 // console.log(arr);
 // for(var i = 0; i< arr.length; i++){
 //     console.log(arr[i]);
@@ -205,3 +207,42 @@ for (var i = 0; i < arr.length; i++) {
     console.log(arr[i]);
 }
 */
+
+
+
+// 7. Array methods in JavaScript
+let Arr = ["bot", 34, null, undefined];
+
+// console.log(Arr.length);
+// Arr.pop();  //Use to remove last element from Array
+// Arr.shift(); //Use to remove first element from Array
+// Arr.push("sam"); //Use to add any element last of the Array
+// Arr.unshift("sam"); //Use to add any element first of the Array
+// const Newlength = Arr.unshift("sam");
+// console.log(Newlength)
+// console.log(Arr);
+
+
+
+
+// 8. String methods in JavaScript
+// let Mystring = "Sam is a good boy, good !";
+// console.log(Mystring.length);
+// console.log(Mystring.slice(0, 4));
+// console.log(Mystring.replace("Sam", "Harry"));
+// console.log(Mystring.indexOf("good"));
+// console.log(Mystring.lastIndexOf("good"));
+
+
+
+
+// 9. Dates in JavaScript
+let myDate = new Date();
+
+// console.log(myDate);
+// console.log(myDate.getTime());
+// console.log(myDate.getFullYear());
+// console.log(myDate.getDay());
+// console.log(myDate.getDate());
+// console.log(myDate.getMinutes());
+// console.log(myDate.getHours());

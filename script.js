@@ -235,7 +235,7 @@ let Arr = ["bot", 34, null, undefined];
 // let Mystring = "Sam is a good boy, good !";
 // console.log(Mystring.length);
 // console.log(Mystring.slice(0, 4));
-// console.log(Mystring.replace("Sam", "Harry"));
+// console.log(Mystring.replace("Sam", "Sarthak"));
 // console.log(Mystring.indexOf("good"));
 // console.log(Mystring.lastIndexOf("good"));
 
@@ -312,3 +312,85 @@ document.forms;
 document.images;
 document.domain;
 // console.log(document.location);
+
+
+
+
+// 12. JavaScrip Events
+
+// function clicked(){
+//     document.querySelectorAll(".container")[1].innerHTML = "<b> We are clicked sucessfully </b>";
+//     console.log('Clicked Sucessfully');
+// }
+
+// window.onload = function(){
+//     console.log('Page reloaded sucessfully');
+// }
+
+// firstcontainer.addEventListener('click', function(){
+//     console.log('clicked on container');
+// })
+
+// firstcontainer.addEventListener('mouseover', function(){
+//     console.log('Mouse Over on container');
+// })
+
+// firstcontainer.addEventListener('mouseout', function(){
+//     console.log('Mouse Out of container');
+// })
+
+// PreHTML = document.querySelectorAll(".container")[1].innerHTML;
+// firstcontainer.addEventListener('mouseup', function(){
+//     document.querySelectorAll(".container")[1].innerHTML = PreHTML;
+//     console.log('Mouse up of the container');
+// })
+
+// firstcontainer.addEventListener('mousedown', function(){
+//     document.querySelectorAll(".container")[1].innerHTML = "<b> We are clicked sucessfully </b>";
+//     console.log('Mouse down of the container');
+// })
+
+
+
+
+// 13. Arrow function in JavaScript
+
+// summ = (a,b) =>{
+//     return a+b;
+// }
+
+logkaro = () => {
+    document.querySelectorAll(".container")[1].innerHTML = "<b> We are timeout </b>";
+    console.log('log is start');
+}
+
+
+
+
+// 14. timeout in JavaScript
+
+// clr = setInterval(logkaro, 2000);
+// clr = setTimeout(logkaro, 5000);
+
+// clearInterval(clr) is use to stop setIntervel or stope to start setInterval
+
+
+
+
+// 15. localStorage in JavaScript
+
+// localStorage.setItem("name", "sarthak");
+// localStorage
+// localStorage.getItem('name');
+// localStorage.removeItem('name');
+// localStorage.clear();
+
+
+
+
+// 16. JSON
+obj = { name: "sarthak", age: 16 };
+// Convert Object into string with JSON
+jso = JSON.stringify(obj);
+console.log(typeof jso)
+console.log(jso)

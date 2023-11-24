@@ -15,10 +15,12 @@ comment
 
 
 
+
 // 2. JavaScript console API
 // console.log("Hellow World");
 // console.warn("It's warning");
 // console.error("It's error");
+
 
 
 
@@ -27,6 +29,7 @@ comment
 var number1 = 16;
 var number2 = 4;
 // console.log(number1 + number2);
+
 
 
 
@@ -120,6 +123,7 @@ y = 54;
 
 
 
+
 // 5. Fuctions in JavaScript
 function avg(a, b) {
     return (a + b) / 2;
@@ -167,6 +171,7 @@ console.log('End of ladder');
 
 
 
+
 // 6. Loops in JavaScript
 
 var arr = [1, 2, 3, 4, 5, 6, 7];
@@ -210,6 +215,7 @@ for (var i = 0; i < arr.length; i++) {
 
 
 
+
 // 7. Array methods in JavaScript
 let Arr = ["bot", 34, null, undefined];
 
@@ -246,3 +252,63 @@ let myDate = new Date();
 // console.log(myDate.getDate());
 // console.log(myDate.getMinutes());
 // console.log(myDate.getHours());
+
+
+
+
+// 10. JavaScript DOM manipulation
+
+// DOM = Document Object Model
+// For target any elememt by id use :
+document.getElementById('click');
+// For target any elememt by class name use :
+document.getElementsByClassName('container');
+// For target any elememt by tag use :
+document.getElementsByTagName('h1');
+// For click use Click function
+document.getElementById('click').click;
+// For target any elememt by tag use :
+document.querySelector('.container');
+
+let elem = document.getElementById("click");
+// console.log(elem);
+
+let elemClass = document.getElementsByClassName("container");
+// console.log(elemClass);
+
+// elemClass[0].style.background = "red";
+// elemClass[0].classList.add("bg-primery");
+// elemClass[0].classList.add("text-succes");
+// elemClass[0].classList.remove("text-succes");
+
+// console.log(elemClass[0].innerHTML);
+// console.log(elemClass[0].innerText);
+// tn = document.getElementsByTagName('button')
+// console.log(tn)
+// tn2 = document.getElementsByTagName('div')
+// console.log(tn2)
+// createdElement = document.createElement('p')
+// createdElement.innerText = "This is created paragraph";
+// tn2[0].appendChild(createdElement);
+// createdElement2 = document.createElement('b')
+// createdElement2.innerText = "This is created bold";
+// tn2[0].replaceChild(createdElement2, createdElement);
+// sel = document.querySelector('.container');
+// console.log(sel);
+// sel = document.querySelectorAll('.container');
+// console.log(sel);
+
+
+
+
+// 11. Get location, scripts, URL from document.
+
+document.location;
+document.scripts;
+document.URL;
+document.title;
+document.links;
+document.forms;
+document.images;
+document.domain;
+// console.log(document.location);

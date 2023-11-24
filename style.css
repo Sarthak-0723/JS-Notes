@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgb(95, 160, 158);
+    border: 2px solid rebeccapurple;
+    margin: 3px 0;
+    padding: 9px;
+}
+
+.bg-primery {
+    background-color: rgb(43, 211, 226);
+}
+
+.text-succes {
+    color: white;
+}
